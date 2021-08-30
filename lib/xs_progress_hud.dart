@@ -122,10 +122,10 @@ class XsProgressHud extends PopupRoute {
 //               borderRadius: new BorderRadius.all(new Radius.circular(10))),
           child: Stack(
             children: <Widget>[
-              Image.asset(
+             Center(child: Image.asset(
                       "assets/images/logo.png",
-                      width: 300,
-                    ),
+                      width: 100,
+                    ),),
                Center(
                 child: CircularProgressIndicator(
                     valueColor: new AlwaysStoppedAnimation(progressColor)),
