@@ -124,7 +124,7 @@ class XsProgressHud extends PopupRoute {
             children: <Widget>[
              Center(
                         child: Image.asset(
-                      "assets/images/loading_logo.gif",
+                      "assets/images/animated_logo3.gif",
                       width: 300,
                     )),
 //                Center(
