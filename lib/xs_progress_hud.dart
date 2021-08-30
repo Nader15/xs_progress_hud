@@ -118,14 +118,14 @@ class XsProgressHud extends PopupRoute {
 //           width: 100.0,
 //           height: 100.0,
           decoration: new BoxDecoration(
-              color: Colors.black,
+              color: Color(0xff061e40),
               borderRadius: new BorderRadius.all(new Radius.circular(10))),
           child: Stack(
             children: <Widget>[
              Center(
                         child: Image.asset(
                       "assets/images/animated_logo2.gif",
-//                       width: 200,
+                      width: 500,
                     )),
 //                Center(
 //                 child: CircularProgressIndicator(
