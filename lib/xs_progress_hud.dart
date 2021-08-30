@@ -115,17 +115,17 @@ class XsProgressHud extends PopupRoute {
   Widget _getProgress() {
     if (message == null) {
       return Container(
-          width: 100.0,
-          height: 100.0,
-          decoration: new BoxDecoration(
-              color: Colors.white,
-              borderRadius: new BorderRadius.all(new Radius.circular(10))),
+//           width: 100.0,
+//           height: 100.0,
+//           decoration: new BoxDecoration(
+//               color: Colors.white,
+//               borderRadius: new BorderRadius.all(new Radius.circular(10))),
           child: Stack(
             children: <Widget>[
               Image.asset(
                       "assets/images/logo.png",
                       width: 300,
-                    )
+                    ),
                Center(
                 child: CircularProgressIndicator(
                     valueColor: new AlwaysStoppedAnimation(progressColor)),
