@@ -125,7 +125,7 @@ class XsProgressHud extends PopupRoute {
              Center(
                         child: Image.asset(
                       "assets/images/animated_logo2.gif",
-                      width: 200,
+//                       width: 200,
                     )),
 //                Center(
 //                 child: CircularProgressIndicator(
