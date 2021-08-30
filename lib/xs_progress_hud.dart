@@ -118,7 +118,7 @@ class XsProgressHud extends PopupRoute {
 //           width: 100.0,
 //           height: 100.0,
           decoration: new BoxDecoration(
-              color: Colors.white,
+              color: Colors.black,
               borderRadius: new BorderRadius.all(new Radius.circular(10))),
           child: Stack(
             children: <Widget>[
